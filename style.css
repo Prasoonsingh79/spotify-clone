@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+   
+}
+
+
+
+body{
+    /* background-color: rgb(249, 241, 241);
+    color: white;
+   */
+}
+
+.left{
+    width: 25vw;
+
+}
+.right{
+    width: 75vw;
+
+}
+.home ul li img{
+    width: 40px;
+    list-style: none;
+    background-color: black;
+    
+}
+.home ul li{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    background-color:#121212;
+    padding-top: 7px;
+}
+.home  img{
+    width: 70px;
+    display: flex;
+    /* background-color: black; */
+
+}
+.left border img{
+    display: flex;
+    background-color: black;
+}
+.home{
+    padding: 10px;
+}
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    background-color:#121212;
+    padding-top: 7px;
+    font-size: 13px;
+}
+.heading img{
+    width: 30px;
+
+
+}
+.library{
+    min-height: 72vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    font-size: 12px;
+    color: gray;
+    gap: 9px;
+    position: absolute;
+    bottom: 0;
+}
+.right{
+margin: 10px 0px;
+}
+.footer a{
+    color: gray;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    background-color: rgb(34 34 34);
+}
+.header > *{
+    padding: 10px;
+
+}
+.nav img {
+    width: 15px;
+    
+    
+
+}
+
+
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#121212 ;
+
+}
+
+.card > *{
+padding-top: 10px;
+}
+
+.card img{
+    width: 200px;
+    object-fit: contain;
+    
+}
